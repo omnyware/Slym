@@ -1,0 +1,44 @@
+
+	
+@page { margin: 0 }
+div { margin: 0 }
+.sheet {
+    margin: 0;
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	page-break-after: always;
+	font-size: 1px;
+}
+
+div.A3           .sheet { width: 297mm; height: 419mm }
+div.A3.landscape .sheet { width: 420mm; height: 296mm }
+div.A4           .sheet { width: 210mm; height: 296mm }
+div.A4.landscape .sheet { width: 297mm; height: 209mm }
+div.A5           .sheet { width: 58mm; height: 209mm }
+div.A5.landscape .sheet { width: 58mm; height: 147mm }
+
+		
+.sheet.padding-10mm { padding: 10mm }
+.sheet.padding-15mm { padding: 15mm }
+.sheet.padding-20mm { padding: 20mm }
+.sheet.padding-25mm { padding: 25mm }
+
+@media screen {
+   div { background: #fff, font-size: 1px; }
+	.sheet {
+		background: white;
+		box-shadow: 0 .5mm 2mm rgba(0,0,0,.3);
+		margin: 5mm;
+	}
+		  
+}
+
+@media print {
+	div.A3.landscape { width: 420mm }
+	div.A3, div.A4.landscape { width: 297mm }
+	div.A4, div.A5.landscape { width: 210mm }
+	div.A5                    { width: 44mm }
+	
+
+}

@@ -1,0 +1,138 @@
+#pdf{
+	border: 2px solid green;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h5{
+	color: green;
+	font-size: 20px;
+}
+p{
+	color: green;
+}
+
+.logo img{
+	width: 90%;
+	height: 88px;
+}
+
+.logo p{
+	color: green;
+	font-size: 11px;
+}
+
+.topo h5{
+
+	color: green;
+	font-size: 16px;
+}
+
+.topo label{
+	color: green;
+	font-size: 11px;
+}
+
+.topo span{
+	color: green;
+	font-size: 10px;
+}
+
+.topo{
+	line-height: 15px;
+	border-bottom: 1px solid green;
+}
+
+.tipo-exame{
+	border-bottom: 1px solid green;
+}
+
+.tipo-exame h5{
+	color: green;
+}
+
+.identificacao-paciente{
+	line-height: 15px;
+	border-bottom: 1px solid green;
+}
+
+.identificacao-paciente label{
+	color: green;
+	font-size: 12px;
+}
+
+.rodape{
+	border-bottom: 1px solid green;
+	line-height: 15px;
+}
+
+.rodape span{
+	color: green;
+	font-size: 12px;
+}
+
+.rodape-info{
+	line-height: 10px;
+}
+
+.rodape-info h6{
+	color: green;
+}
+
+.rodape-info span{
+	font-size: 12.2px;
+	color: green;
+}
+
+.corpo-exame{
+	border-bottom: 1px solid green;
+	line-height: 15px;
+}
+
+.corpo-exame span{
+	color: green;
+	font-size: 11px;
+}
+
+.corpo-exame h6{
+	color: green;
+}
+
+.corpo-exame label{
+	color: green;
+	font-size: 14px;
+}
+
+.observacao{
+	border-bottom: 1px solid green;
+}
+
+.observacao h6{
+	color: green;
+	text-decoration: underline;
+}
+
+.observacao span{
+	color: green;
+	font-size: 10px;
+}
+
+.assinatura{
+	width: 140px;
+	height: 40px;
+}
+
+.traco-assinatura{
+	width: 50%;
+	height: 1px;
+	background-color: green;
+	margin-top: -15px;
+	margin-left: 25%;
+}
+
+
+
+
+
+

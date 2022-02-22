@@ -1,0 +1,43 @@
+.select2-selection__arroww:before {
+	content: "";
+	position: absolute;
+	right: 7px;
+	top: 42%;
+	border-top: 5px solid #888;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+}
+
+.accordion.accordion-toggle-arrow .card .card-header .card-title::after{
+	display: none
+}
+
+body, .card-custom, .header, #kt_subheader, thead, tbody, .escfff{
+	background: #1E1E2D !important;
+}
+
+h2, h3, h4, h5, h6, td, label, strong{
+	color: #fff !important;
+}
+.card-title, .modal-title{
+	color: #fff !important;
+}
+
+.form-control, option{
+	background: #1E1E2D !important;
+	color: #fff;
+}
+.select2-dropdown, .select2-results, .select2-search__field, .modal-content{
+	background: #1E1E2D !important;
+	color: #fff;
+}
+
+.select2-selection{
+	background: #1E1E2D !important;
+}
+.select2-selection__rendered{
+	color: #fff !important;
+}
+.card-footer{
+	background: #1E1E2D !important;
+}

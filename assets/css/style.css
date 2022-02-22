@@ -1,0 +1,59 @@
+img.logo{
+	height: 60px;
+}
+
+.whatsApp-btn img{
+	height: 60px;
+	border-radius: 50%;
+}
+
+img.icone-social{
+	height: 40px;
+}
+
+.card-purple{
+	border: 1px solid #512da8;
+}
+
+.img-pricipal{
+	width: 100%;
+	max-height: 400px;
+	border-bottom: 5px solid #333;
+}
+
+.servicos{
+	height: 250px;
+	border-bottom: 3px solid #512da8;
+}
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+img.img-garantia{
+	width: 100%;
+	border-right: 5px solid #512da8;
+}
+
+nav{
+	height: 65px;
+}
+
+#mobile-demo{
+	background-color: #512da8;
+}
+#mobile-demo li a{
+	color: #ffffff;
+}
+.indicators{
+	background: #000;
+	opacity: 0.3;
+}
+
+.whatsApp-bt{
+	padding:5px;
+	position:fixed;
+	top:200px;
+}
+
